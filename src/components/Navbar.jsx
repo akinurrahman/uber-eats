@@ -21,14 +21,14 @@ const Navbar = () => {
         <h1 className="px-2 text-2xl sm:text-3xl lg:text-4xl whitespace-nowrap">
           Uber <span className="font-bold ">Eats</span>
         </h1>
-        <div className="text--0.88rem hidden items-center rounded-full bg-gray-200 p-1 lg:flex">
+        <div className="text-[14px] hidden items-center rounded-full bg-gray-200 p-1 lg:flex">
           <p className="rounded-full bg-black p-2 text-white">Delevery</p>
           <p className="p-2">Pickup</p>
         </div>
       </div>
       {/* search input */}
       <div
-        className="w--12.5rem sm:w--25rem lg:w--31.25rem flex items-center rounded-full bg-gray-200 px-2
+        className="w-[200px] sm:w-[400px] lg:w-[500px] flex items-center rounded-full bg-gray-200 px-2
       "
       >
         <AiOutlineSearch size={25} />
