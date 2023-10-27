@@ -66,7 +66,9 @@ const Menu = () => {
         {/* Filter Price */}
         <div>
           <p className="font-bold   text-gray-700">Filter Price</p>
-          <div className="flex flex-wrap space-x-4  space-y-2  lg:space-x-4">
+          <div 
+          className="flex flex-wrap justify-between  space-y-2 sm:justify-start sm:space-x-4 lg:space-x-4"
+          >
             <button
               onClick={() => filterPrice("$")}
               className="mt-2 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
