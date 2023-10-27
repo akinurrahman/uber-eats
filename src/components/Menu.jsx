@@ -59,7 +59,7 @@ const Menu = () => {
               onClick={() => filterType("chicken")}
               className=" border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
             >
-              Chicken
+              Chicken 
             </button>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Menu = () => {
           </div>
         </div>
       </div>
-      {/* Display Menu */}
+      {/* Display Menu items */}
       <div className="grid grid-cols-2 gap-6 pt-4 lg:grid-cols-4">
         {foods.map((item) => {
           return (
