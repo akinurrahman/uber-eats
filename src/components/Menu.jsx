@@ -21,8 +21,8 @@ const Menu = () => {
     );
   };
   return (
-    <div className="m-auto max-w-[1640px] px-4 py-12">
-      <h1 className="text-center text-4xl font-bold text-orange-600 ">
+    <div className="m-auto max-w-[1350px] px-4 py-12">
+      <h1 className="text-center text-4xl font-bold text-orange-600 mb-2">
         Top Rated Menu
       </h1>
       {/* Filter Row */}
@@ -111,16 +111,16 @@ const Menu = () => {
                 <p className="font-bold">{item.name}</p>
                 <p>
                   <span
-                    className="flex items-center justify-center px-2 py-1 rounded-lg bg-orange-500 p-1 text-white
+                    className="flex items-center justify-center px-2 py-1 rounded-lg  p-1 text-white
                   "
                   >
                     {item.price === "$"
-                      ? "💲 Cheap"
+                      ? "💲"
                       : item.price === "$$"
-                      ? "💰 Affordable"
+                      ? "💰"
                       : item.price === "$$$"
-                      ? "💎 Expensive"
-                      : "👑 Luxury"}
+                      ? "💎"
+                      : "👑"}
                   </span>
                 </p>
               </div>

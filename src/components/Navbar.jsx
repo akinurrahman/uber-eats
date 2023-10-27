@@ -12,7 +12,7 @@ import { MdHelp, MdFavorite } from "react-icons/md";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
-    <div className="mx-auto flex max-w-[1640px] items-center justify-between p-4 ">
+    <div className="mx-auto flex max-w-[1350px] items-center justify-between p-4 ">
       {/* left side */}
       <div className="flex items-center">
         <div className="cursor-pointer" onClick={() => setNav((prev) => !prev)}>
